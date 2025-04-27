@@ -19,7 +19,8 @@ API_KEY = os.getenv("OPENWEATHER_API_KEY")
 st.set_page_config(page_title="DK Weather Forecast", page_icon="🌤️")
 
 # Display logo in sidebar
-st.sidebar.image("Logo.jpg", use_container_width=True)  # Updated for the latest Streamlit version
+st.sidebar.image("Logo.jpg", use_column_width=True)  # Correct usage
+# Updated for the latest Streamlit version
 
 # Sidebar - Features section
 st.sidebar.title("Features:")
